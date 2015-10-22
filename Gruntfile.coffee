@@ -37,7 +37,7 @@ module.exports = (grunt) ->
             build: ['src/tmp']
 
         jasmine:
-            fsm:
+            build:
                 src: ['build/content-select.js']
                 options:
                     specs: 'spec/content-select-spec.js'
