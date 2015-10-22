@@ -1,6 +1,10 @@
+# Localise the `ContentSelect.Range` class to `Range` for the sake of brevity
 Range = ContentSelect.Range
-element = document.getElementById('selected')
 
+# Create an element to test the selection against
+element = document.createElement('p')
+element.innerHTML = 'ContentSelect <br>is <b>a CoffeeScript/JavaScript</b> library that provides cross-browser support for content selection. It is designed specifically for use with the `contenteditable` attribute and web based WYSIWYG editors.'
+document.body.appendChild(element)
 
 describe 'ContentSelect.Range()', () ->
 

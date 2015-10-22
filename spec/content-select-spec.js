@@ -3,7 +3,11 @@
 
   Range = ContentSelect.Range;
 
-  element = document.getElementById('selected');
+  element = document.createElement('p');
+
+  element.innerHTML = 'ContentSelect <br>is <b>a CoffeeScript/JavaScript</b> library that provides cross-browser support for content selection. It is designed specifically for use with the `contenteditable` attribute and web based WYSIWYG editors.';
+
+  document.body.appendChild(element);
 
   describe('ContentSelect.Range()', function() {
     it('should create a content range that can be used to select page content', function() {
