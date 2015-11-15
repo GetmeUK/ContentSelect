@@ -44,8 +44,10 @@ class ContentSelect.Range
         [endNode, endOffset] = _getChildNodeAndOffset(element, @_to)
 
         # Set the range start/end
-        docRange.setStart(startNode, startOffset)
-        docRange.setEnd(endNode, endOffset)
+        startNodeLen = startNode.length or 0;
+        endNodeLen = endNode.length or 0;
+        docRange.setStart(startNode, Math.min(startOffset, startNodeLen))
+        docRange.setEnd(endNode, Math.min(endOffset, endNodeLen))
 
         # Select the range
         window.getSelection().addRange(docRange)
