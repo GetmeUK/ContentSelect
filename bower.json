@@ -1,0 +1,33 @@
+{
+  "name": "ContentSelect",
+  "description": "A JavaScript library providing cross-browser support for content selection.",
+  "main": "build/content-select.js",
+  "authors": [
+    {
+      "name": "Anthony Blackshaw",
+      "email": "ant@getme.co.uk",
+      "url": "https://github.com/anthonyjb"
+    }
+  ],
+  "license": "MIT",
+  "keywords": [
+    "selection",
+    "content",
+    "inline"
+  ],
+  "homepage": "http://getcontenttools.com/api/content-select",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:GetmeUK/FSM.git"
+  },
+  "moduleType": [
+    "globals"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
