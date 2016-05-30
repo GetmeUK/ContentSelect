@@ -1,11 +1,17 @@
 {
   "name": "ContentSelect",
-  "version": "1.0.0",
+  "description": "A JavaScript library providing cross-browser support for content selection.",
+  "version": "1.0.1",
   "author": {
     "name": "Anthony Blackshaw",
     "email": "ant@getme.co.uk",
     "url": "https://github.com/anthonyjb"
   },
+  "keywords": [
+    "selection",
+    "content",
+    "inline"
+  ],
   "devDependencies": {
     "grunt": "~0.4.5",
     "grunt-contrib-clean": "^0.6.0",
