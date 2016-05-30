@@ -1,12 +1,13 @@
 {
   "name": "ContentSelect",
   "description": "A JavaScript library providing cross-browser support for content selection.",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": {
     "name": "Anthony Blackshaw",
     "email": "ant@getme.co.uk",
     "url": "https://github.com/anthonyjb"
   },
+  "main": "build/content-select.js",
   "keywords": [
     "selection",
     "content",
