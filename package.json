@@ -1,7 +1,7 @@
 {
   "name": "ContentSelect",
   "description": "A JavaScript library providing cross-browser support for content selection.",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": {
     "name": "Anthony Blackshaw",
     "email": "ant@getme.co.uk",

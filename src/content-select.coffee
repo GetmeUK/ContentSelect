@@ -1,4 +1,4 @@
-window.ContentSelect = {}
+ContentSelect = {}
 
 class ContentSelect.Range
 
@@ -364,3 +364,14 @@ _getNodeRange = (element, docRange) ->
             endOffset = childNode.textContent.length + 1
 
     return [startNode, startOffset, endNode, endOffset]
+
+
+# Export the namespace
+
+# Browser (via window)
+if typeof window != 'undefined'
+    window.ContentSelect = ContentSelect
+
+# Node/Browserify
+if typeof module != 'undefined' and module.exports
+    exports = module.exports = ContentSelect
